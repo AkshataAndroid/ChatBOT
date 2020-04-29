@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "5792385374",
+    "firebase_url": "https://unfydchatbot.firebaseio.com",
+    "project_id": "unfydchatbot",
+    "storage_bucket": "unfydchatbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5792385374:android:db6b3b473148f7d89ce7cf",
+        "android_client_info": {
+          "package_name": "com.unfyd.unfydChatBot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5792385374-di0131a51ps6v31uv9mufk69p0rj3p7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3c3q-uxw0hkJ2omT0Yv6gHlwtNdIpZSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5792385374-di0131a51ps6v31uv9mufk69p0rj3p7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

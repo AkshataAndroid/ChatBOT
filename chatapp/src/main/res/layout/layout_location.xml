@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorBlack"
+        android:text="Share your location?"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+
+           >
+            <Button
+                android:id="@+id/btnYES"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_btn_rounded_border"
+                android:layout_margin="5dp"
+                android:text="Yes"/>
+            <Button
+                android:id="@+id/btnNO"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/layout_btn_rounded_border"
+                android:text="No"/>
+        </LinearLayout>
+
+</RelativeLayout>

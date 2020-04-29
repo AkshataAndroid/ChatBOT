@@ -1,0 +1,3 @@
+rootProject.name='ChatBOT'
+
+include ':app', ':chatapp', ':chatapp'
