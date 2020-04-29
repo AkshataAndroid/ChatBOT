@@ -452,7 +452,6 @@ public class MainFragment extends Fragment implements MessageAdapter.ListItemLis
             Log.d("Firbase id login", "Refreshed token: " + refreshedToken);
             return view;
         } catch (Exception ex) {
-
             ex.printStackTrace();
             return null;
         }
